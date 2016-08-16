@@ -1,0 +1,6 @@
+<div class="container-fluid parent" (mouseleave)="display(null)">
+  <div class="slides">
+    <img *ngFor="let image of images" src="{{image}}" (mouseover)="display(image)">
+  </div>
+  <img *ngIf="selected" class="visible-slide" src="{{selected}}">
+</div>

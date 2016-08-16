@@ -1,0 +1,20 @@
+.visible-slide {
+  width: 30em;
+  position: absolute;
+  z-index: 99;
+}
+
+.slides {
+  display: block;
+  margin: auto;
+}
+
+.parent {
+  position: relative;
+}
+
+.slides>img {
+  width: 5em;
+  max-height: 3em;
+  margin: .25em;
+}
