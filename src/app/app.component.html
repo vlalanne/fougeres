@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<div id="main">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li [routerLinkActive]="['active']"><a [routerLink]="['main']">Acceuil</a></li>
+        </ul>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
