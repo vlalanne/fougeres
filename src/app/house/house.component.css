@@ -1,0 +1,8 @@
+.blueprint {
+  width: 25em;
+  margin: .5em;
+}
+
+.blueprint:hover {
+  width: auto;
+}
