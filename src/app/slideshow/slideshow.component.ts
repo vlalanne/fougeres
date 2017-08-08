@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'slideshow',
   templateUrl: 'slideshow.component.html',
-  styleUrls: ['slideshow.component.css']
+  styleUrls: ['slideshow.component.scss']
 })
 export class SlideshowComponent implements OnInit {
   @Input()
